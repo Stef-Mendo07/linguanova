@@ -20,14 +20,12 @@ body::before {
     z-index: -1;
 }
 
-/* CONTENEDOR */
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
 }
 
-/* HEADER */
 .header {
     background: #2b6cb0;
     color: white;
@@ -69,7 +67,6 @@ body::before {
     position: relative;
 }
 
-/* Línea animada */
 .nav a::after {
     content: "";
     position: absolute;
@@ -85,7 +82,6 @@ body::before {
     width: 100%;
 }
 
-/* HERO */
 .hero {
     background: linear-gradient(to right, #2b6cb0, #38b2ac);
     color: white;
@@ -122,7 +118,6 @@ body::before {
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* SECCIONES */
 section {
     padding: 80px 0;
     text-align: center;
@@ -134,7 +129,6 @@ h2 {
     color: #2b6cb0;
 }
 
-/* GRID DE CARDS */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -142,7 +136,6 @@ h2 {
     margin-top: 40px;
 }
 
-/* CARDS MODERNAS */
 .card {
     background: linear-gradient(135deg, #1e3c72, #4da3ff);
     border-radius: 15px;
@@ -170,7 +163,6 @@ h2 {
     box-shadow: 0 20px 45px rgba(0,0,0,0.18);
 }
 
-/* CTA */
 .cta {
     background: linear-gradient(to right, #38b2ac, #2b6cb0);
     color: rgb(203, 238, 236);
@@ -180,7 +172,6 @@ h2 {
     color: white;
 }
 
-/* FORMULARIO */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -218,7 +209,6 @@ button[type="submit"]:hover {
     background: #38b2ac;
 }
 
-/* FOOTER */
 .footer {
     background: #2b6cb0;
     color: rgb(200, 241, 249);
@@ -228,7 +218,6 @@ button[type="submit"]:hover {
     margin-top: 50px;
 }
 
-/* ANIMACIONES */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -251,7 +240,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 2rem;
@@ -299,7 +287,6 @@ button[type="submit"]:hover {
     transform: scale(1.05);
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
     .about-content {
         flex-direction: column;
@@ -388,7 +375,6 @@ button[type="submit"]:hover {
     background: rgba(255,255,255,0.15);
     font-size: 18px;
 }
-/* SECCIÓN VALUES (Metodología - Identidad) */
 .values {
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(4px);
@@ -396,4 +382,5 @@ button[type="submit"]:hover {
 
 .values h2 {
     color: #2b6cb0;
+
 }
